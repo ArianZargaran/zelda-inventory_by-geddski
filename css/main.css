@@ -1,3 +1,196 @@
+/* line 3, main.scss */
+video {
+  position: absolute;
+  height: 600px;
+  z-index: 10;
+  pointer-events: none;
+  opacity: 0; }
 
+/* line 11, main.scss */
+body * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* line 15, main.scss */
+.container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: 550px 1fr;
+  grid-template-rows: 86px 1fr 58px; }
+
+/* line 26, main.scss */
+.top {
+  background-color: purple;
+  grid-column-end: span 2;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 228px 1fr 150px 1fr 228px; }
+
+/* line 34, main.scss */
+.hearts {
+  background: yellow;
+  padding-top: 24px;
+  padding-left: 47px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start; }
+  /* line 41, main.scss */
+  .hearts .heart {
+    background: red;
+    width: 15px;
+    height: 12px;
+    margin-bottom: 4px;
+    margin-right: 1.4px; }
+
+/* line 50, main.scss */
+.left-button {
+  -ms-flex-item-align: end;
+      align-self: end;
+  justify-self: end;
+  margin-bottom: 16px;
+  margin-right: 12px; }
+
+/* line 57, main.scss */
+.right-button {
+  -ms-flex-item-align: end;
+      align-self: end;
+  margin-bottom: 16px;
+  margin-left: 20px; }
+
+/* line 63, main.scss */
+.rupees {
+  -ms-flex-item-align: center;
+      align-self: center;
+  justify-self: center;
+  margin-right: 62px; }
+
+/* line 69, main.scss */
+.location {
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-left: 18px; }
+
+/* line 74, main.scss */
+.left {
+  background-color: green; }
+
+/* line 78, main.scss */
+.inventory-nav {
+  background: limegreen;
+  height: 80px; }
+
+/* line 83, main.scss */
+.title {
+  text-align: center;
+  color: #fff;
+  background: #0afc0a;
+  height: 30px;
+  padding-left: 58px;
+  padding-top: 15px; }
+
+/* line 92, main.scss */
+.links {
+  padding-left: 140px;
+  padding-top: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 93px; }
+
+/* line 100, main.scss */
+.link {
+  background: #fff;
+  width: 28px;
+  height: 24px;
+  display: inline-block; }
+
+/* line 107, main.scss */
+.items {
+  display: grid;
+  grid-template-columns: repeat(5, 72px);
+  grid-template-rows: repeat(4, 72px);
+  padding-left: 98px;
+  padding-top: 16px;
+  grid-gap: 10px; }
+
+/* line 116, main.scss */
+.item {
+  background: black; }
+
+/* line 120, main.scss */
+.right {
+  background-color: orangered;
+  display: grid;
+  position: relative;
+  grid-template-rows: 155px 1fr 180px;
+  grid-template-areas: "conditioins" "none" "stats"; }
+
+/* line 128, main.scss */
+.preview {
+  background-image: url("https://arianzargaran.github.io/zelda-inventory_by-geddski/assets/img/link-preview.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+/* line 139, main.scss */
+.conditions {
+  background: lightcoral; }
+
+/* line 143, main.scss */
+.stats {
+  background: rgba(255, 255, 255, 0.2);
+  grid-area: stats;
+  margin: 10px;
+  border: 1px solid #fff;
+  padding: 12px 20px;
+  margin-bottom: 36px;
+  color: #fff;
+  z-index: 5; }
+
+/* line 154, main.scss */
+.item-name {
+  height: 27px; }
+
+/* line 158, main.scss */
+.info {
+  height: 24px;
+  background: orange; }
+
+/* line 163, main.scss */
+.bottom {
+  background-color: black;
+  grid-column-end: span 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 70px; }
+
+/* line 172, main.scss */
+.action {
+  background: #ccc;
+  display: inline-block;
+  height: 20px;
+  width: 85px; }
 
 /*# sourceMappingURL=main.css.map */
